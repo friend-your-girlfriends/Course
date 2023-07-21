@@ -1,0 +1,532 @@
+.header {
+    max-height: 100vh;
+    background: linear-gradient(0deg, #EBF3FB 28.39%, rgba(152, 195, 232, 0.00) 100%);
+    
+    &_info {
+        height: 686px;
+        color: #1F3F68;
+        font-family: Roboto;
+        font-style: normal;
+        background-image: url(../img/illustration.png);
+        background-repeat: no-repeat;
+        background-position: right center;
+    
+        &_title {
+            font-size: 64px;
+            font-weight: 300;
+            line-height: 74px;
+            letter-spacing: 2.56px;
+            padding-top: 107px;
+            padding-bottom: 32px;
+        }
+        
+        &_text {
+            font-size: 16px;
+            width: 425px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+            letter-spacing: 0.8px;
+            padding-bottom: 71px;
+        }
+        
+        &_button {
+            color: #FFF;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+            letter-spacing: 0.64px;
+            border-radius: 10px;
+            background: #5A98D0;
+            box-shadow: 5px 10px 20px 0px rgba(53, 110, 173, 0.20);
+            padding: 15px 50px;
+            display: inline-block;
+            text-decoration: none;
+        }
+    }
+}
+
+.text-header {
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 46px;
+    letter-spacing: 1.8px;
+    padding: 64px 0;
+}
+
+.card-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    &_card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 359px;
+        border-radius: 10px;
+        background: #FFF;
+        box-shadow: 5px 20px 50px 0px rgba(16, 112, 177, 0.20);
+        padding: 44px 32px;
+        box-sizing: border-box;
+    
+        &_img {
+            height: 120px;
+            padding-bottom: 45px;
+        }
+        
+        &_header {
+            color: #1F3F68;
+            font-family: Roboto;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+            letter-spacing: 1px;
+            padding-bottom: 14px;
+        }
+        
+        &_description {
+            color: #1F3F68;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+            letter-spacing: 0.8px;
+            margin-bottom: 30px;
+        }
+        
+        &_button {
+            display: flex;
+            color: #5A98D0;
+            font-family: Roboto;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+            letter-spacing: 0.7px;
+            text-decoration: none;
+            justify-items: center;
+            width:fit-content;
+        
+            &_img {
+                padding-left: 20px;
+            }
+        }       
+    }
+}
+
+.our-project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 112px;
+
+    &_description {
+        color: #222;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0.8px;
+        max-width: 720px;
+        padding: 16px;
+    }
+
+    &_list {
+        display: flex;
+        align-content: space-between;
+        flex-flow: column wrap;
+
+        &_project {
+            position: relative;
+            padding: 16px;
+            
+            &_header {
+                position: absolute;
+                color: #FFF;
+                text-align: right;
+                font-family: Roboto;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 46px;
+                letter-spacing: 1.6px;
+                text-align: right;
+                top: 64px;
+                right: 64px;
+            }
+
+            &_img {
+                border-radius: 10px;
+                width: 100%;
+            }
+        }
+
+        &_two-projects {
+            display: flex;
+            justify-content: space-between;
+            
+            &_header {
+                position: absolute;
+                color: #FFF;
+                font-family: Roboto;
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 46px;
+                letter-spacing: 1.4px;
+                top: 32px;
+                left: 32px;
+            }
+        }
+    }
+}
+
+.footer {
+    background: #316099;
+    
+    &_block{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &_info{
+            &_header {
+                width: 340px;
+                color: #FFF;
+                font-family: Roboto;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 46px;
+                letter-spacing: 1.8px;
+                padding: 91px 0 32px 0;
+            }
+            
+            &_description {
+                color: #FFF;
+                font-family: Roboto;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 26px;
+                letter-spacing: 0.8px;
+                width: 494px;
+                opacity: 0.6;
+                padding: 32px 0 96px 0;
+            }
+    
+            &_button{
+                padding: 15px 80px;
+                text-decoration: none;
+                background: #5A98D0;
+                color: #FFF;
+                text-align: center;
+                font-family: Roboto;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 26px;
+                letter-spacing: 0.64px;
+                display: inline-block;
+            }
+        }
+
+        &_contacts{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;  
+
+            &_list {
+                display: flex;
+                padding: 64px 0;
+                justify-content: space-around;
+                list-style: none;
+                
+                &_item {
+                    color: #FFF;
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 26px;
+                    letter-spacing: 0.8px;
+                    display: flex;
+                    justify-content: space-between;
+                
+                    &_numeration {
+                        width: 50px;
+                    }
+                    
+                    &_text{
+                        width: 250px;
+                    }
+                } 
+            }           
+        }
+    }
+
+    &_copyright {
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0.8px;
+        opacity: 0.4;
+        padding-bottom: 64px;
+    }
+}
+
+
+@media (max-width: 1141px) and (min-width: 789px) {
+    .card-list {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+        &_card{
+            margin: 16px 0;
+        }
+    }
+    .footer{
+        &_block{        
+            padding: 0 16px;
+        
+            &_list{        
+                padding: 0 16px;
+                flex-direction: column;
+                align-items: start;
+            }
+
+            &_contacts{
+                &_list{
+                    flex-direction: column;
+                    padding: 64px 0 39px 0;
+                    &_item{
+                        padding-bottom: 25px;
+                        justify-content: start;
+                    
+                        &_text{
+                            width: auto;
+                        }
+                    }
+                }
+            } 
+        }
+    }
+}
+
+@media (max-width: 788px) and (min-width: 451px)
+{
+    .header{
+        &_info{
+            padding-left: 32px;
+            background-size: 336px;
+            background-position: right center;        
+            max-width: 520px;
+        }
+    }
+
+    .text-header{
+        padding: 64px 32px;
+    }
+
+    .card-list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        &_card{    
+            margin-bottom: 32px;
+        }
+    }
+
+    .our-project{
+        padding: 0 16px;
+    }
+   
+    .footer{
+       &_block{
+            padding: 0 32px;
+            box-sizing: border-box;
+            
+            &_info{
+                &_header{
+                    width: auto;
+                }
+                
+                &_description{
+                    width: auto;
+                }
+
+                &_button{
+                    padding: 10px 40px;
+                    font-size: 16px;
+                }
+            }
+
+            &_contacts{
+                &_list{
+                    flex-direction: column;
+                
+                    &_item{
+                        &_text{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+       } 
+    }
+}
+
+@media (max-width: 450px)
+{
+    .header{
+        padding-bottom: 40px;  
+        
+        &_info{
+            background-image: none;
+            padding: 0px 16px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: auto;
+
+            &_title{
+                text-align: center;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: normal;
+                letter-spacing: 1.28px;
+                padding: 28px 0 12px 0;
+            }
+
+            &_text{
+                text-align: center;
+            }
+
+            &_button{
+                font-size: 12px;
+                padding: 5px 20px;
+                border-radius: 15px 15px;
+            }
+        }
+    }
+    .text-header{
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: normal;
+        padding: 48px 16px;
+    }
+
+    .what-we-do{
+        padding: 16px;
+    }
+
+    .card-list{
+        justify-content: center;
+        
+        &_card{        
+            margin-bottom: 32px;
+        }
+    }
+      
+    .our-project{
+        padding-bottom: 64px;
+        
+        &_description{
+            padding: 0px 16px 82px 16px;
+        }
+
+        &_list{
+            &_project{       
+                padding: 8px 16px;
+                
+                &_header{
+                    font-size: 16px;
+                    line-height: normal;
+                    letter-spacing: normal;
+                }
+            }
+
+            &_two-projects{
+                flex-direction: column;
+                
+                &_header{
+                    font-size: 16px;
+                    line-height: normal;
+                    letter-spacing: normal;   
+                }
+            }
+        }
+    }
+
+    .footer{
+        padding: 0 16px;
+        
+        &_block{            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            &_info{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                
+                &_header{
+                    padding: 18px 0 32px 0;
+                    text-align: center;
+                    font-size: 24px;
+                    font-weight: 400;
+                    line-height: normal;
+                    letter-spacing: normal;
+                }
+                
+                &_description{
+                    width: auto;
+                    padding: 0 0;
+                }
+                
+                &_button{
+                    padding: 5px 25px;
+                    margin: 40px 0;
+                }
+
+            }
+
+            &_contacts{ 
+                flex-direction: column;
+                padding: 32px 0;
+                
+                &_list{
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+
+    .footer_copyright{
+        padding-bottom: 32px;
+    }
+}
