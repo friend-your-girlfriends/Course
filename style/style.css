@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;   
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 34px 0px;
+}
+
+@media (max-width: 768px) and (min-width: 451px)
+{
+    .navigation {
+        padding: 47px 32px; 
+    }
+}
+@media (max-width: 450px)
+{
+    .navigation{
+        padding: 16px 16px 0 16px;
+        
+    }
+}
