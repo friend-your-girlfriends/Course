@@ -5,16 +5,104 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/contacts.css">
     <title>Contacts</title>
 </head>
 
 <body>
     <div class="container">
-        <ul class="navigation">
-            <li><a href="index.html"><img src="" alt="main"></a></li>
-            <li><a href="contacts.html"><img src="" alt="contacts"></a></li>
-        </ul>
+            <ul class="navigation">
+                <li><a href="index.html"><img src="img/logo.svg" alt="main"></a></li>
+                <li><a href="contacts.html"><img src="img/contacts.svg" alt="contacts"></a></li>
+            </ul>
     </div>
+
+    <div class="top">    
+        <div class="container">        
+            <div class="header">
+                <h2 class="header_title">Contact Us</h2>
+                <p class="header_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>        
+        </div>     
+    </div>
+    
+    <div class="container">
+        <main class="contact_us">
+            <div class="contact_us_data">
+                <img src="img/contact_us.svg" alt="contact us">
+                <h3 class="contact_us_data_title">ADDRESS</h3>
+                <p class="contact_us_data_text">Id convallis placerat sit sed duis id amet volutpat quam a, pharetra.</p>
+                <h3 class="contact_us_data_title">PHONE</h3>
+                <ul class="contact_us_data_list">
+                    <li class="contact_us_data_list_object"><img src="img/phone.svg" alt="phone"><p class="contact_us_data_list_phone">+7-812-7313-4321</p></li>          
+                    <li class="contact_us_data_list_object"><img src="img/phone.svg" alt="phone"><p class="contact_us_data_list_phone">+7-817-0000-1234</p></li>          
+                </ul>
+                <h3 class="contact_us_data_title">ONLINE SERVICE</h3>
+                <ul class="contact_us_data_list">
+                    <li class="contact_us_data_list_object"><img src="img/site.svg" alt="site"><p class="contact_us_data_list_online">www.site.com</p></li>          
+                    <li class="contact_us_data_list_object"><img src="img/email.svg" alt="mail"><p class="contact_us_data_list_online">hello.site@gmail.com</p></li>          
+                </ul>
+            </div>
+            <form action="" class="contact_us_message">
+                <h2 class="contact_us_message_title">SEND US MESSAGE</h2>
+                <div class="contact_us_message_form">
+                    <label for="name" class="contact_us_message_form_label">Full Name</label>
+                    <input type="text" class="contact_us_message_form_text">    
+                </div>
+                <div class="contact_us_message_form">
+                    <label for="email" class="contact_us_message_form_label">Email</label>
+                    <input type="email" class="contact_us_message_form_text">    
+                </div>
+                <div class="contact_us_message_form">
+                    <label for="message" class="contact_us_message_form_label">Message</label>
+                    <textarea type="textarea" class="contact_us_message_form_text">    
+                    </textarea>
+                </div>
+            <a href="#" class="contact_us_message_form_button">SUBMIT</a> 
+            </form>
+        
+    </main>
+</div>
+    <div class="map">
+        <script class="map_script" type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3d63200a5e2d46b8c1e8753a8854cec7e90ce98b27714e1b70fe7811b8cd8df5&amp;width=940&amp;height=480&amp;lang=ru_RU&amp;scroll=true"></script>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_block">
+                <div class="footer_block_info">
+                    <h2 class="footer_block_info_header">Intersted to work
+                        with our team?</h2>
+                    <p class="footer_block_info_description">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit, sed do
+                        eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                </div>
+                <a href="#" class="footer_block_info_button">Let's&nbsp;Talk</a>
+            </div>
+        </div>
+        <hr class="footer_h-line">
+        <div class="container">
+            <div class="footer_block_contacts">
+                <ol class="footer_block_contacts_list">
+                    <li class="footer_block_contacts_list_item">
+                        <p class="footer_block_contacts_list_item_numeration">1. </p>
+                        <p class="footer_block_contacts_list_item_text">Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit.</p>
+                    </li>
+                    <li class="footer_block_contacts_list_item">
+                        <p class="footer_block_contacts_list_item_numeration">2. </p>
+                        <p class="footer_block_contacts_list_item_text">+7-812-7313-4321</p>
+                    </li>
+                    <li class="footer_block_contacts_list_item">
+                        <p class="footer_block_contacts_list_item_numeration">3. </p>
+                        <p class="footer_block_contacts_list_item_text">hello.site@gmail.com</p>
+                    </li>
+                </ol>
+                <p class="footer_copyright">&copy; 2021 All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
